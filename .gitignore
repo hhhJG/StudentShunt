@@ -56,3 +56,9 @@ src/ConfigFolder/ColMajorDetail.json
 *.myhibernatedata
 .mymetadata
 *.classpath
+*.zip
+*.xls
+*.MF
+*.xlsx
+*.class
+*.jar

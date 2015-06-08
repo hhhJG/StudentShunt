@@ -1,0 +1,56 @@
+{
+	"Colleges":
+	[
+		{
+			"FullName":"自动化类",
+			"HaveTestClass":"是",
+			"ProcedureName":"Shunt_AutoProPlanToShunt",
+			"Majors":
+			[
+				{
+					"MajFullName":"实验班",
+					"MajShortName":"自动化",
+					"StuSum":44
+				},
+				{
+					"MajFullName":"自动化",
+					"MajShortName":"自动化",
+					"StuSum":44
+				},
+				{
+					"MajFullName":"测控技术与仪器",
+					"MajShortName":"测控",
+					"StuSum" : 44
+				},
+				{
+					"MajFullName":"电气工程及其自动化",
+					"MajShortName":"电气",
+					"StuSum":44
+				}
+			]
+		},
+		{
+			"FullName":"电子信息类",
+			"HaveTestClass":"否",
+			"ProcedureName":"Shunt_EleInforProPlanToShunt",
+			"Majors":
+			[
+				{
+					"MajFullName":"电子科学与技术",
+					"MajShortName":"电子",
+					"StuSum":44
+				},
+				{
+					"MajFullName":"电子信息工程",
+					"MajShortName":"电信",
+					"StuSum" : 44
+				},
+				{
+					"MajFullName":"通信工程",
+					"MajShortName":"通信",
+					"StuSum" : 44
+				}
+			]
+		}
+	]
+}

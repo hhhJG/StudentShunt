@@ -1,0 +1,396 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+.login_bg{
+  background: url(../source/bg0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*nav css*/
+.navbar{
+  background: rgb(14,102,173);
+  color:white;
+  border-bottom: none;
+}
+.navbar a{
+  color:white;
+}
+
+#nav a, #nav a:active, #nav a:link, #nav a:visited
+{
+  background: rgb(14,102,173);
+  color:white;
+}
+
+#nav .active a, #nav .active a:active, #nav .active a:link, #nav .active a:visited
+{
+  background: white;
+  color: rgb(14,102,173);
+}
+
+#nav a:hover, #logout_button:hover{
+  color:white;
+  background: rgb(4, 154, 277);
+}
+
+/*login css*/
+#forget_pwd{
+  width: 450px;
+  margin: 0 auto;
+}
+.form-signin {
+  width: 450px;
+  padding: 30px 0;
+  margin: 0 auto;
+  background: rgb(4, 154, 277);
+  text-align: center;
+  border-radius: 4px;
+  border:none;
+  margin-bottom: 20px;
+  -webkit-box-shadow: #666 0px 0px 10px;
+  -moz-box-shadow: #666 0px 0px 10px;
+  box-shadow: #666 0px 0px 10px;
+}
+.form-signin .control-label{
+  font-size: 20px;
+  font-weight: normal;
+  color:white;
+}
+.form-signin .form-header{
+  margin: -30px auto 30px;
+  padding: 30px 0;
+  background: white;
+  border-radius: 4px;
+  color:rgb(4, 154, 277);
+}
+.form-signin .form-title-img{
+  padding: 0;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background: url(../source/login.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border: none;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  padding: 10px;
+  font-size: 16px;
+  height: 45px;
+  width: 295px;
+  margin:0 auto 12px;
+}
+.form-signin #pwdtip{
+  width: 285px;
+  margin: -12px auto 10px;
+  padding: 2px 2px;
+  color: rgb(56,56,56);
+  font-size: 5px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.form-signin .form-tip{
+  padding: 2px;
+  width: 350px;
+  background: rgb(231,101,97);
+  margin: 12px auto 0;
+  color: white;
+  border-radius: 0px;
+  border: none;
+}
+.form-signin .form-control:focus {
+  padding: 8px 10px;
+  font-size: 20px;
+}
+
+.form-signin .btn-sign-in{
+  padding: 10px;
+  height: 50px;
+  width: 350px;
+  background: rgb(4, 154, 277);
+  color:white;
+}
+.form-signin .btn-sign-in[disabled="disabled"]{
+  background: rgb(4, 154, 277);
+  color:white;
+}
+
+/*.form-signin .form-warning{
+  background: rgba(243,156,18,0.4);
+}*/
+.form-signin .form-warning::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgb(252,34,38);
+}
+.form-signin .form-warning:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgb(252,34,38);
+}
+.form-signin .form-warning::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgb(252,34,38);
+}
+.form-signin .form-warning:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgb(252,34,38);
+}
+
+/*nav*/
+.finger
+{
+  cursor: pointer;
+}
+/*custom css*/
+
+/*person message*/
+.person-message{
+  text-align: center;
+}
+.person-message .message_title{
+  margin: 0 auto;
+  width: 900px;
+  height: 60px;
+  padding: 10px 50px;
+  border-bottom: 1px solid rgb(14,102,173);
+}
+.message_title h3,.exam-signup h3, .password-change h3{
+  margin:0;
+  padding: 0;
+  display: block;
+  font-size: 35px;
+  line-height: 35px;
+  float:left;
+  color:rgb(14,102,173);
+}
+.message_title .mes_ensure{
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  float: right;
+  margin: 10px 15px 5px;
+  padding: 4px;
+  font-size: 20px;
+  line-height: 20px;
+  width: 140px;
+  background: rgb(77, 173, 127);
+  color:#fff;
+  font-weight: lighter;
+  border-color: rgb(77, 173, 127);
+  border-radius: 0;
+}
+
+.message-form{
+  clear: both;
+  padding: 0 20px;
+  text-align: center;
+}
+.message-form .form-group{
+  margin: 0 auto;
+  width: 900px;
+  padding: 15px 50px;
+  border-bottom: 1px solid #edeeee;
+}
+.message-form .control-label{
+  text-align: left;
+  font-weight: normal;
+  color:#777;
+  font-size: 20px;
+  height: 40px;
+}
+.message-form .form-control-static{
+  font-size: 20px;
+  max-width:300px;
+  text-align: left;
+}
+
+/* exam sign up */
+.exam-signup .exam-signup_title{
+  margin: 0 auto;
+  width: 900px;
+  height: 60px;
+  padding: 10px 50px;
+  border-bottom: 1px solid rgb(14,102,173);
+}
+
+.exam-signup .form-group{
+  margin: 0 auto;
+  padding: 20px 50px 5px 50px;
+  width: 900px;
+  height: 55px;
+  border-bottom: 1px solid #edeeee;
+}
+
+.exam-signup .control-label{
+  text-align: left;
+  font-weight: normal;
+  color:#383838;
+  font-size: 15px;
+  height: 30px;
+}
+
+.exam-signup #telphone{
+  border: 1px solid rgb(22,103,171);
+  background: #fff;
+  height: 30px;
+  font-size: 15px;
+  line-height: 30px;
+  border-radius: 0;
+  color: rgb(22,103,171);
+}
+
+.exam-signup #telphone[disabled="disabled"]
+{
+  border-color: #aaa;
+}
+
+.exam-signup .disabled
+{
+  color: #888;
+}
+
+.exam-signup .resultPanel1, .exam-signup .resultPanel2, .exam-signup .resultPanel3, .exam-signup .resultPanel4, .exam-signup .resultPanel5
+{
+  border: 1px solid rgb(22,103,171);
+  border-radius: 1px;
+  /*background: rgb(167,68,68);*/
+  font-weight: normal;
+  color:rgb(22,103,171);
+  font-size: 15px;
+  line-height: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.exam-signup #test_score
+{
+  height: 26px;
+  margin: 2px 0;
+  font-size: 15px;
+  line-height: 26px;
+  border:none;
+  background: #fff;
+  border-bottom: 1px solid rgb(22,103,171);
+  color:rgb(22,103,171);
+}
+
+.exam-signup .sign_result_del
+{
+  position: relative;
+  /*top:-6px;*/
+  opacity: 1;
+  color: rgb(22,103,171);
+}
+
+.exam-signup .select_change
+{
+  border: none;
+  width: 600px;
+}
+
+.exam-signup  #exam-signup-btn{
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  float: right;
+  margin: 0;
+  padding: 4px;
+  font-size: 20px;
+  line-height: 20px;
+  width: 100px;
+  background: rgb(14,102,173);
+  color:#fff;
+  font-weight: lighter;
+  border-color: rgb(14,102,173);
+  border-radius: 0;
+}
+
+.exam-signup .exam-signup-btn{
+  border: none;
+}
+
+/* change password*/
+.password-change .password-change_title{
+  margin: 0 auto;
+  width: 900px;
+  height: 60px;
+  padding: 10px 50px;
+  border-bottom: 1px solid rgb(14,102,173);
+}
+
+.form_change_password{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px; 
+}
+
+.form_change_password .form-control {
+  padding: 10px;
+  font-size: 16px;
+  height: 50px;
+  width: 285px;
+  background: #f6f6f4;
+  margin:0 auto 12px;
+  border-radius: 2px;
+  border: none;
+}
+.form_change_password .form-control:focus {
+  padding: 8px 10px;
+  font-size: 20px;
+  background: #fff;
+}
+.form_change_password .change_password_button{
+  padding: 10px;
+  height: 50px;
+  width: 285px;
+  background: rgb(14,102,173);
+  border-radius: 2px;
+  border: none;
+  color:white;
+}
+
+.form_change_password .form-warning::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgb(252,34,38);
+}
+.form_change_password .form-warning:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: rgb(252,34,38);
+}
+.form_change_password .form-warning::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: rgb(252,34,38);
+}
+.form_change_password .form-warning:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: rgb(252,34,38);
+}
+
+#kenburns-slideshow {
+  position: fixed;
+  top:0;
+  right:0;
+  width:1600px;
+  height: 900px;
+  background-color:#292929;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/*  The plugin wraps the images in div.kb-slide. This
+allows me to run separate animations simultaneously. */
+.kb-slide{
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+}
+
+
+/* I used position relative here because IE8
+didnt like the opacity when the img was set to absolute*
+translate3d(000) kicks them into HW acceleration, and 
+backface-visibility gives some performance boosts.*/
+.kb-slide img{
+  position: relative;
+  -webkit-transform: translate3d(0,0,0)
+  -moz-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+
+}
